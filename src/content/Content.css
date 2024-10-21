@@ -1,0 +1,45 @@
+.containerheader{
+    display: flex;
+    flex-direction: row;
+    background-color:#A5C8D8;
+    height: 700px;
+    
+
+}
+
+.title{
+    padding: 0 0 0 75px  ;
+}
+
+.header{
+    width: 600px;
+    height: auto;
+    font-size: 52px;
+}
+.header1{
+    width: 400px;
+    height: auto;
+    font-size: 25px;
+}
+
+button{
+    background-color: #06040E;
+    color: white;
+    width: 13.5em;
+    height:2.8em;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+ button:hover{
+    background-color: #ffffff !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.oval{
+
+    position: absolute;
+    z-index: 101;
+    bottom: 0;
+    width: 100%;
+}
